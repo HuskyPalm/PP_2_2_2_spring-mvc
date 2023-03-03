@@ -20,14 +20,6 @@ public class CarDaoImpl implements CarDao {
             new Car("Toyota", 2, (short) 3)
     );
 
-//    static {
-//        carList.add(new Car("Ferrari", 12, (short) 5));
-//        carList.add(new Car("Bentley", 1, (short) 2));
-//        carList.add(new Car("BMW", 2, (short) 3));
-//        carList.add(new Car("Lada", 4, (short) 5));
-//        carList.add(new Car("Toyota", 2, (short) 3));
-//    }
-
     @Override
     public List<Car> getCars(List<Car> carList, int count) {
         if (count >= 5) {
